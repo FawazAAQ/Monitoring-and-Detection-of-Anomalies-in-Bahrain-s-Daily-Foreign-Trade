@@ -1,0 +1,154 @@
+{"ts": 1777814169, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1777814241, "event": "auth.logout", "actor": "AD-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1777814247, "event": "auth.login_failure", "actor": "AD-001", "ip": "127.0.0.1", "details": {"reason": "wrong_password"}}
+{"ts": 1777814253, "event": "auth.login_failure", "actor": "m", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1777817344, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1777817593, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1777817598, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1777879927, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1777880581, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778055660, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778056029, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056030, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056046, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056063, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056065, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056068, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056069, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056086, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056098, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056103, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056104, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056108, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056331, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778056525, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056526, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778056550, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778057154, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2601-2-10046-1", "role": "admin"}}
+{"ts": 1778060533, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060534, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060541, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778060655, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060656, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060656, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060656, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060657, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060659, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2801-1-10108-1", "role": "admin"}}
+{"ts": 1778060660, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2801-1-10108-1", "role": "admin"}}
+{"ts": 1778060662, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2601-3-10120-1", "role": "admin"}}
+{"ts": 1778060662, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2601-2-10130-1", "role": "admin"}}
+{"ts": 1778060664, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778060723, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778061151, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061154, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061381, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061455, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061457, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061724, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061727, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061734, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061952, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061956, "event": "auth.logout", "actor": "AD-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778061965, "event": "auth.login_failure", "actor": "ad", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1778061975, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778061978, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778061983, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2024-2501-2-10023-1", "role": "admin"}}
+{"ts": 1778062026, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778062036, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2024-12-31"}}
+{"ts": 1778148610, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778148621, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148624, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148627, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-5-10009-1", "role": "admin"}}
+{"ts": 1778148628, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-5-10009-1", "role": "admin"}}
+{"ts": 1778148628, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-5-10009-1", "role": "admin"}}
+{"ts": 1778148629, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148629, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148630, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148630, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148632, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778148633, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-1-10014-1", "role": "admin"}}
+{"ts": 1778148633, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-1-10014-1", "role": "admin"}}
+{"ts": 1778148634, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-5-10009-1", "role": "admin"}}
+{"ts": 1778148634, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2501-5-10009-1", "role": "admin"}}
+{"ts": 1778148635, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2801-8-10001-1", "role": "admin"}}
+{"ts": 1778148648, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2019-2601-9-10021-1", "role": "admin"}}
+{"ts": 1778166063, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2019-12-20"}}
+{"ts": 1778166612, "event": "snapshots.refresh", "actor": "AD-001", "ip": "127.0.0.1", "details": {"previous_data_date": "2019-12-20", "new_data_date": "2023-11-20", "archived_snapshot_id": "2019-12-20"}}
+{"ts": 1778406289, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778565056, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778565069, "event": "snapshots.refresh_noop", "actor": "AD-001", "ip": "127.0.0.1", "details": {"data_date": "2020-12-30"}}
+{"ts": 1778565077, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565107, "event": "auth.logout", "actor": "AD-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778565121, "event": "auth.login_success", "actor": "AN-001", "ip": "127.0.0.1", "details": {"role": "analyst"}}
+{"ts": 1778565134, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778565162, "event": "auth.logout", "actor": "AN-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778565177, "event": "auth.login_success", "actor": "AU-001", "ip": "127.0.0.1", "details": {"role": "auditor"}}
+{"ts": 1778565194, "event": "auth.logout", "actor": "AU-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778565202, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778565208, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565209, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565210, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565210, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565211, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565211, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565212, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565213, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-5-10322-1", "role": "admin"}}
+{"ts": 1778565336, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778565337, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-5-10322-1", "role": "admin"}}
+{"ts": 1778565677, "event": "auth.logout", "actor": "AD-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778565689, "event": "auth.login_success", "actor": "AN-001", "ip": "127.0.0.1", "details": {"role": "analyst"}}
+{"ts": 1778566509, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778566510, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778566511, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778566512, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-5-10322-1", "role": "analyst"}}
+{"ts": 1778566514, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-6-10412-1", "role": "analyst"}}
+{"ts": 1778566515, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-8-10000-1", "role": "analyst"}}
+{"ts": 1778566515, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2501-4-10491-1", "role": "analyst"}}
+{"ts": 1778566517, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-4-10002-1", "role": "analyst"}}
+{"ts": 1778566518, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-1-10558-1", "role": "analyst"}}
+{"ts": 1778566519, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-7-10334-1", "role": "analyst"}}
+{"ts": 1778566520, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-7-10200-1", "role": "analyst"}}
+{"ts": 1778566522, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-7-10334-1", "role": "analyst"}}
+{"ts": 1778566523, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-7-10200-1", "role": "analyst"}}
+{"ts": 1778566527, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-7-10878-1", "role": "analyst"}}
+{"ts": 1778566528, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-1-10510-1", "role": "analyst"}}
+{"ts": 1778566528, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-5-10431-1", "role": "analyst"}}
+{"ts": 1778566618, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778566622, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-5-10431-1", "role": "analyst"}}
+{"ts": 1778567808, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778567820, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778567874, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778567877, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-8-10000-1", "role": "analyst"}}
+{"ts": 1778567878, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-5-10322-1", "role": "analyst"}}
+{"ts": 1778567879, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-6-10412-1", "role": "analyst"}}
+{"ts": 1778567879, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-8-10000-1", "role": "analyst"}}
+{"ts": 1778567880, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2501-4-10491-1", "role": "analyst"}}
+{"ts": 1778567881, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-4-10002-1", "role": "analyst"}}
+{"ts": 1778567882, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-1-10558-1", "role": "analyst"}}
+{"ts": 1778567883, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2701-7-10334-1", "role": "analyst"}}
+{"ts": 1778567885, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-7-10200-1", "role": "analyst"}}
+{"ts": 1778567918, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778567921, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778568006, "event": "record.view", "actor": "AN-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "analyst"}}
+{"ts": 1778568080, "event": "auth.logout", "actor": "AN-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778568093, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778568199, "event": "record.view", "actor": "AD-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "admin"}}
+{"ts": 1778568227, "event": "auth.logout", "actor": "AD-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778568239, "event": "auth.login_failure", "actor": "US-001", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1778568250, "event": "auth.login_failure", "actor": "US-001", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1778568265, "event": "auth.login_failure", "actor": "US-001", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1778568287, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}
+{"ts": 1778568291, "event": "auth.logout", "actor": "AD-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778568305, "event": "auth.login_success", "actor": "AN-001", "ip": "127.0.0.1", "details": {"role": "analyst"}}
+{"ts": 1778568310, "event": "snapshots.refresh_noop", "actor": "AN-001", "ip": "127.0.0.1", "details": {"data_date": "2020-12-30"}}
+{"ts": 1778568313, "event": "auth.logout", "actor": "AN-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778568327, "event": "auth.login_success", "actor": "AU-001", "ip": "127.0.0.1", "details": {"role": "auditor"}}
+{"ts": 1778568331, "event": "auth.logout", "actor": "AU-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778568340, "event": "auth.login_failure", "actor": "sdgysgd", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1778568539, "event": "auth.login_failure", "actor": "US-001", "ip": "127.0.0.1", "details": {"reason": "unknown_user"}}
+{"ts": 1778568554, "event": "auth.login_success", "actor": "AU-001", "ip": "127.0.0.1", "details": {"role": "auditor"}}
+{"ts": 1778568558, "event": "record.view", "actor": "AU-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2801-1-10074-1", "role": "auditor"}}
+{"ts": 1778568569, "event": "record.view", "actor": "AU-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-3-10630-1", "role": "auditor"}}
+{"ts": 1778568583, "event": "record.view", "actor": "AU-001", "ip": "127.0.0.1", "details": {"item_id": "2020-2601-3-10420-1", "role": "auditor"}}
+{"ts": 1778568596, "event": "auth.logout", "actor": "AU-001", "ip": "127.0.0.1", "details": {}}
+{"ts": 1778568604, "event": "auth.login_success", "actor": "AD-001", "ip": "127.0.0.1", "details": {"role": "admin"}}

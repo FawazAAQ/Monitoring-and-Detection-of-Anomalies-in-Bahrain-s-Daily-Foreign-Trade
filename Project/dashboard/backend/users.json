@@ -1,0 +1,14 @@
+[
+  {
+    "employee_id": "AD-001",
+    "name": "Khalid Al-Rashid",
+    "role": "admin",
+    "password_hash": "$2b$12$gpBm64OEIz1h0u6p044pKORfaBq.ldufJBfWK63nB.boWQZ4QCh9C"
+  },
+  {
+    "employee_id": "US-001",
+    "name": "Fatima Al-Sayed",
+    "role": "user",
+    "password_hash": "$2b$12$.Jf7umN1jQ4JZfU8sueSmOpN1c6P8Rujcz1ZyCaKuMu.OtkgFqq3K"
+  }
+]

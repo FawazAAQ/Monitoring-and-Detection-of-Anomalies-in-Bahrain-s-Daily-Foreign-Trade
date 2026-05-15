@@ -1,0 +1,626 @@
+item_id,declaration_id,year,customs_office_code,customs_office_name,regime,registration_serial,registration_number,reference_number,registration_date,hs_code,commercial_description,country_of_origin,country_of_origin_code,country_of_export,country_of_export_code,country_of_destination,country_of_destination_code,uom,qty_by_uom,actual_unit_price,price_basis,local_amount,sup_amount,invoice_amount,net_weight,gross_weight,status,specification_code,warehouse_code,exit_office_code,exit_officer_id,operation_name,operation_date,encrypted_declarant_cr,encrypted_consignee_cr,encrypted_exporter_cr,declaration_date,year_month,hs_clean,hs2,hs6,is_reexport,trade_type,local_amount_clean,invoice_amount_clean,sup_amount_clean,net_weight_clean,gross_weight_clean,partner_country_code,active_cr,hs_desc,isic4_codes,isic4_descs,isic4_sectors,llm_prompt,gpt4o_mismatch,gpt4o_risk,gpt4o_reason,deepseek_mismatch,deepseek_risk,deepseek_reason
+2020-2601-8-10000-1,2020-2601-8-10000,2020,2601,Dry Port - Hidd,IM,8,10000,94487,1/8/2020,8471300000,Portable laptop computers,CN,CN,CN,CN,BH,BH,NMB,179.0,241.16,EXW,16231.03,0.98,43167.64,467.06,536.61,Released,9,9,2601,306,,,CR_HASH_182,CR_HASH_036,,2020-01-08,2020-01,847130000000,84,847130,False,Import,16231.03,43167.64,0.98,467.06,536.61,CN,CR_HASH_036,Portable laptop computers,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Portable laptop computers
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if portable laptop computers are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2501-2-10001-1,2020-2501-2-10001,2020,2501,Bahrain International Airport,EX,2,10001,56354,3/27/2020,8703221000,Passenger cars 1000-1500cc,BH,BH,BH,BH,US,US,NMB,109.0,21595.79,EXW,885081.86,4.71,2353941.11,833.5,911.55,Released,2,2,2501,579,,,CR_HASH_093,,CR_HASH_031,2020-03-27,2020-03,870322100000,87,870322,True,Re-export,885081.86,2353941.11,4.71,833.5,911.55,US,CR_HASH_031,Passenger cars 1000-1500cc,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Passenger cars 1000-1500cc
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if passenger cars are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2601-4-10002-1,2020-2601-4-10002,2020,2601,Dry Port - Hidd,EX,4,10002,11990,1/17/2020,3923301000,Plastic bottles for packaging,BH,BH,BH,BH,JP,JP,NMB,198.0,0.72,EXW,53.6,3.48,142.56,1425.77,1608.02,Released,4,8,2601,184,,,CR_HASH_117,,CR_HASH_016,2020-01-17,2020-01,392330100000,39,392330,True,Re-export,53.6,142.56,3.48,1425.77,1608.02,JP,CR_HASH_016,Plastic bottles for packaging,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Plastic bottles for packaging
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if plastic bottles for packaging are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2701-4-10003-1,2020-2701-4-10003,2020,2701,Khalifa Bin Salman Port,IM,4,10003,88709,9/26/2020,102211000,"Live cattle, pure-bred breeding",IN,IN,IN,IN,BH,BH,NMB,2.0,1209.65,CIF,909.66,1.9,2419.3,3.69,4.21,Released,9,7,2701,388,,,CR_HASH_234,CR_HASH_036,,2020-09-26,2020-09,102211000000,10,102211,False,Import,909.66,2419.3,1.9,3.69,4.21,IN,CR_HASH_036,"Live cattle, pure-bred breeding",,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Live cattle, pure-bred breeding
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if live cattle, pure-bred breeding is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2601-5-10004-1,2020-2601-5-10004,2020,2601,Dry Port - Hidd,IM,5,10004,72482,12/21/2020,1006301000,Long-grain milled rice,SA,SA,SA,SA,BH,BH,KGM,168.29,0.65,EXW,41.13,1.4,109.39,168.29,189.49,Released,8,8,2601,122,,,CR_HASH_036,CR_HASH_046,,2020-12-21,2020-12,100630100000,10,100630,False,Import,41.13,109.39,1.4,168.29,189.49,SA,CR_HASH_046,Long-grain milled rice,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Long-grain milled rice
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if rice trading is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2501-7-10005-1,2020-2501-7-10005,2020,2501,Bahrain International Airport,EX,7,10005,38236,9/18/2020,9018390000,Medical syringes and needles,BH,BH,BH,BH,US,US,NMB,27.0,0.11,EXW,1.12,1.79,2.97,74.44,83.62,Pending,9,5,2501,122,,,CR_HASH_127,,CR_HASH_033,2020-09-18,2020-09,901839000000,90,901839,True,Re-export,1.12,2.97,1.79,74.44,83.62,US,CR_HASH_033,Medical syringes and needles,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Medical syringes and needles
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if medical syringes and needles are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2701-2-10006-1,2020-2701-2-10006,2020,2701,Khalifa Bin Salman Port,IM,2,10006,52063,8/6/2020,6109100000,Cotton t-shirts,DE,DE,DE,DE,BH,BH,NMB,168.0,3.82,FOB,241.3,0.58,641.76,1259.61,1474.57,Released,6,1,2701,358,,,CR_HASH_027,CR_HASH_022,,2020-08-06,2020-08,610910000000,61,610910,False,Import,241.3,641.76,0.58,1259.61,1474.57,DE,CR_HASH_022,Cotton t-shirts,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Cotton t-shirts
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if cotton t-shirts are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2601-8-10007-1,2020-2601-8-10007,2020,2601,Dry Port - Hidd,EX,8,10007,43676,10/30/2020,1006301000,Long-grain milled rice,BH,BH,BH,BH,AE,AE,KGM,2700.77,1.07,EXW,1086.57,3.43,2889.82,2700.77,3002.95,Released,9,8,2601,346,,,CR_HASH_058,,CR_HASH_006,2020-10-30,2020-10,100630100000,10,100630,True,Re-export,1086.57,2889.82,3.43,2700.77,3002.95,AE,CR_HASH_006,Long-grain milled rice,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Long-grain milled rice
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if rice trading is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2701-3-10008-1,2020-2701-3-10008,2020,2701,Khalifa Bin Salman Port,EX,3,10008,27306,6/15/2020,102211000,"Live cattle, pure-bred breeding",BH,BH,BH,BH,CN,CN,NMB,48.0,2068.22,EXW,37327.23,1.9,99274.56,47.96,54.63,Pending,2,9,2701,927,,,CR_HASH_090,,CR_HASH_008,2020-06-15,2020-06,102211000000,10,102211,True,Re-export,37327.23,99274.56,1.9,47.96,54.63,CN,CR_HASH_008,"Live cattle, pure-bred breeding",,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Live cattle, pure-bred breeding
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if live cattle trading is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2501-2-10009-1,2020-2501-2-10009,2020,2501,Bahrain International Airport,IM,2,10009,71263,8/7/2020,102211000,"Live cattle, pure-bred breeding",CN,CN,CN,CN,BH,BH,NMB,115.0,996.33,EXW,43081.31,1.93,114577.95,103.54,117.9,Released,9,5,2501,761,,,CR_HASH_039,CR_HASH_026,,2020-08-07,2020-08,102211000000,10,102211,False,Import,43081.31,114577.95,1.93,103.54,117.9,CN,CR_HASH_026,"Live cattle, pure-bred breeding",,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Live cattle, pure-bred breeding
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if live cattle trading is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-8-10010-1,2020-2801-8-10010,2020,2801,King Fahd Causeway,IM,8,10010,93322,11/16/2020,8703221000,Passenger cars 1000-1500cc,CN,CN,CN,CN,BH,BH,NMB,9.0,8629.97,FOB,29203.82,0.96,77669.73,32.6,34.47,Released,8,1,2801,146,,,CR_HASH_002,CR_HASH_019,,2020-11-16,2020-11,870322100000,87,870322,False,Import,29203.82,77669.73,0.96,32.6,34.47,CN,CR_HASH_019,Passenger cars 1000-1500cc,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Passenger cars 1000-1500cc
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if passenger cars are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-7-10011-1,2020-2801-7-10011,2020,2801,King Fahd Causeway,,7,10011,76513,5/27/2020,8471300000,Portable laptop computers,IN,IN,BH,BH,JP,JP,NMB,167.0,736.72,CIF,46260.12,2.91,123032.24,1059.8,1214.93,Released,5,9,2801,870,,,CR_HASH_154,CR_HASH_039,,2020-05-27,2020-05,847130000000,84,847130,False,,46260.12,123032.24,2.91,1059.8,1214.93,,CR_HASH_039,Portable laptop computers,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Portable laptop computers
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if portable laptop computers are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2601-8-10012-1,2020-2601-8-10012,2020,2601,Dry Port - Hidd,IM,8,10012,76324,11/1/2020,2710192100,Gas oils for diesel engines,US,US,US,US,BH,BH,LTR,12971.48,0.54,CIF,2633.73,2.21,7004.6,10331.97,11418.14,Released,7,3,2601,366,,,CR_HASH_126,CR_HASH_018,,2020-11-01,2020-11,271019210000,27,271019,False,Import,2633.73,7004.6,2.21,10331.97,11418.14,US,CR_HASH_018,Gas oils for diesel engines,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Gas oils for diesel engines
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if gas oils for diesel engines are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-7-10013-1,2020-2801-7-10013,2020,2801,King Fahd Causeway,IM,7,10013,66961,10/17/2020,3923301000,Plastic bottles for packaging,IN,IN,IN,IN,BH,BH,NMB,170.0,0.33,CIF,21.09,3.81,56.1,1110.6,1254.88,Released,1,2,2801,637,,,CR_HASH_120,CR_HASH_038,,2020-10-17,2020-10,392330100000,39,392330,False,Import,21.09,56.1,3.81,1110.6,1254.88,IN,CR_HASH_038,Plastic bottles for packaging,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Plastic bottles for packaging
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if plastic bottles for packaging are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2701-8-10014-1,2020-2701-8-10014,2020,2701,Khalifa Bin Salman Port,IM,8,10014,25245,9/11/2020,3923301000,Plastic bottles for packaging,SA,SA,SA,SA,BH,BH,NMB,27.0,0.53,EXW,5.38,3.17,14.31,203.03,217.37,Released,8,9,2701,814,,,CR_HASH_240,CR_HASH_047,,2020-09-11,2020-09,392330100000,39,392330,False,Import,5.38,14.31,3.17,203.03,217.37,SA,CR_HASH_047,Plastic bottles for packaging,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Plastic bottles for packaging
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if plastic bottles for packaging are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-1-10015-1,2020-2801-1-10015,2020,2801,King Fahd Causeway,IM,1,10015,57036,12/6/2020,102211000,"Live cattle, pure-bred breeding",CN,CN,CN,CN,BH,BH,NMB,144.0,961.58,EXW,52063.79,4.1,138467.52,690.22,772.98,Released,5,5,2801,311,,,CR_HASH_147,CR_HASH_034,,2020-12-06,2020-12,102211000000,10,102211,False,Import,52063.79,138467.52,4.1,690.22,772.98,CN,CR_HASH_034,"Live cattle, pure-bred breeding",,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Live cattle, pure-bred breeding
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if live cattle, pure-bred breeding is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2501-9-10016-1,2020-2501-9-10016,2020,2501,Bahrain International Airport,IM,9,10016,76440,8/7/2020,9018390000,Medical syringes and needles,SA,SA,SA,SA,BH,BH,NMB,24.0,0.1,EXW,0.9,3.93,2.4,151.38,174.19,Released,3,8,2501,427,,,CR_HASH_182,CR_HASH_017,,2020-08-07,2020-08,901839000000,90,901839,False,Import,0.9,2.4,3.93,151.38,174.19,SA,CR_HASH_017,Medical syringes and needles,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Medical syringes and needles
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if medical syringes and needles are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2601-3-10017-1,2020-2601-3-10017,2020,2601,Dry Port - Hidd,IM,3,10017,80226,7/13/2020,8517120000,Cellular telephones,US,US,US,US,BH,BH,NMB,192.0,1129.74,FOB,81558.19,2.19,216910.08,892.31,1062.22,Released,6,9,2601,104,,,CR_HASH_037,CR_HASH_018,,2020-07-13,2020-07,851712000000,85,851712,False,Import,81558.19,216910.08,2.19,892.31,1062.22,US,CR_HASH_018,Cellular telephones,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Cellular telephones
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if cellular telephones are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-9-10018-1,2020-2801-9-10018,2020,2801,King Fahd Causeway,IM,9,10018,50888,9/19/2020,1006301000,Long-grain milled rice,AE,AE,AE,AE,BH,BH,KGM,4267.62,1.1,EXW,1765.09,1.83,4694.38,4267.62,4488.88,Held,9,5,2801,383,,,CR_HASH_030,CR_HASH_005,,2020-09-19,2020-09,100630100000,10,100630,False,Import,1765.09,4694.38,1.83,4267.62,4488.88,AE,CR_HASH_005,Long-grain milled rice,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Long-grain milled rice
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if rice trade is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2501-3-10019-1,2020-2501-3-10019,2020,2501,Bahrain International Airport,IM,3,10019,99918,6/10/2020,8703221000,Passenger cars 1000-1500cc,DE,DE,IN,IN,BH,BH,NMB,183.0,20625.88,CIF,1419225.55,3.43,3774536.04,1240.14,1321.94,Released,6,1,2501,711,,,CR_HASH_071,CR_HASH_033,,2020-06-10,2020-06,870322100000,87,870322,False,Import,1419225.55,3774536.04,3.43,1240.14,1321.94,DE,CR_HASH_033,Passenger cars 1000-1500cc,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Passenger cars 1000-1500cc
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if passenger cars are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-1-10020-1,2020-2801-1-10020,2020,2801,King Fahd Causeway,EX,1,10020,10492,11/24/2020,102211000,"Live cattle, pure-bred breeding",BH,BH,BH,BH,CN,CN,NMB,48.0,1043.14,CIF,18826.59,0.73,50070.72,351.83,404.06,Held,6,9,2801,820,,,CR_HASH_227,,CR_HASH_002,2020-11-24,2020-11,102211000000,10,102211,True,Re-export,18826.59,50070.72,0.73,351.83,404.06,CN,CR_HASH_002,"Live cattle, pure-bred breeding",,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Live cattle, pure-bred breeding
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if live cattle fit their business scope.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2501-3-10021-1,2020-2501-3-10021,2020,2501,Bahrain International Airport,EX,3,10021,13613,12/18/2020,9018390000,Medical syringes and needles,BH,BH,BH,BH,IN,IN,NMB,49.0,0.41,FOB,7.55,1.06,20.09,281.06,330.44,Released,7,5,2501,585,,,CR_HASH_015,,CR_HASH_022,2020-12-18,2020-12,901839000000,90,901839,True,Re-export,7.55,20.09,1.06,281.06,330.44,IN,CR_HASH_022,Medical syringes and needles,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Medical syringes and needles
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are unspecified, making it unclear if medical syringes and needles are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2701-6-10022-1,2020-2701-6-10022,2020,2701,Khalifa Bin Salman Port,EX,6,10022,77447,9/29/2020,8471300000,Portable laptop computers,BH,BH,BH,BH,CN,CN,NMB,170.0,250.89,FOB,16036.89,0.75,42651.3,430.22,497.54,Released,6,1,2701,138,,,CR_HASH_131,,CR_HASH_049,2020-09-29,2020-09,847130000000,84,847130,True,Re-export,16036.89,42651.3,0.75,430.22,497.54,CN,CR_HASH_049,Portable laptop computers,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Portable laptop computers
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if portable laptop computers are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2801-5-10023-1,2020-2801-5-10023,2020,2801,King Fahd Causeway,IM,5,10023,61516,3/21/2020,8504400090,Static converters,DE,DE,DE,DE,BH,BH,NMB,82.0,50.18,FOB,1547.15,4.76,4114.76,523.21,599.32,Released,5,3,2801,476,,,CR_HASH_044,CR_HASH_043,,2020-03-21,2020-03,850440009000,85,850440,False,Import,1547.15,4114.76,4.76,523.21,599.32,DE,CR_HASH_043,Static converters,,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Static converters
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sectors are not specified, making it unclear if static converters are related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+2020-2701-7-10024-1,2020-2701-7-10024,2020,2701,Khalifa Bin Salman Port,IM,7,10024,95305,7/30/2020,102211000,"Live cattle, pure-bred breeding",AE,AE,AE,AE,BH,BH,NMB,130.0,2399.01,CIF,117263.61,1.87,311871.3,527.31,563.11,Released,4,8,2701,649,,,CR_HASH_243,CR_HASH_007,,2020-07-30,2020-07,102211000000,10,102211,False,Import,117263.61,311871.3,1.87,527.31,563.11,AE,CR_HASH_007,"Live cattle, pure-bred breeding",,,,"You are a customs trade compliance expert.
+
+A company is registered for the following business activities:
+- Registered activities: nan
+- Registered sector(s): nan
+
+The company has submitted a trade declaration for the following goods:
+- Goods description: Live cattle, pure-bred breeding
+
+Does the traded goods description logically match the company's registered business activities?
+
+Respond in JSON only with exactly these three fields:
+{
+  ""mismatch"": true or false,
+  ""risk_level"": ""normal"" or ""low"" or ""medium"" or ""high"",
+  ""reason"": ""one sentence explanation""
+}
+
+Rules:
+- If the goods clearly fit the registered activities: mismatch false, risk_level normal
+- If the goods are loosely related to the registered activities: mismatch false, risk_level normal
+- If the goods are debatable to the registered activities: mismatch true, risk_level low
+- If the goods are clearly unrelated to the registered activities: mismatch true, risk_level medium
+- If the goods are completely unrelated AND suspicious (e.g. weapons, chemicals, controlled goods): mismatch true, risk_level high
+- Do not output anything outside the JSON block.",True,medium,"The company's registered activities and sector are not specified, making it unclear if live cattle trading is related.",,error,"Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****9fbE is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "2019-12-20",
+    "data_date": "2019-12-20",
+    "archived_at": "2026-05-07T15:10:12Z",
+    "archived_by": "AD-001",
+    "files": [
+      "master_anomalies.csv",
+      "LLM_Explainability.csv",
+      "CR_LLM.csv"
+    ],
+    "summary": {
+      "total_rows": 30,
+      "flagged": 29,
+      "data_date": "2019-12-20",
+      "by_final_level": {
+        "HIGH": 25,
+        "LOW": 3,
+        "MEDIUM": 1
+      },
+      "by_year_month": {
+        "2019-01": 6,
+        "2019-02": 4,
+        "2019-03": 6,
+        "2019-05": 1,
+        "2019-06": 4,
+        "2019-09": 2,
+        "2019-10": 3,
+        "2019-11": 2,
+        "2019-12": 2
+      },
+      "by_trade_type": {
+        "Import": 13,
+        "Export": 9,
+        "Re-export": 8
+      },
+      "unique_crs": 23,
+      "llm_explanations_available": 0
+    }
+  }
+]
